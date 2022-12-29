@@ -1,5 +1,9 @@
 # Strava backup and analytics scripts
 
+In 2022, Strava started to make the yearly statistics as part of the subscription.
+I love statistics but I did not intend to pay for Strava subscription just for that.
+So I created this set of scripts to get my own statistics, freely inspired by the Strava 2021 stastistics and [SmashRun](https://smashrun.com/).
+
 Three different Python scripts to:
 1) <b>strava2gsheets_fullsync.py</b>: Retrieve all activities from Strava API v3 and store them in Google Sheet
 Be careful if you have a large number of activities in Strava as it imposes a rate-limit of 100 API calls per 15 minutes.
