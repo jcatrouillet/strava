@@ -1,4 +1,4 @@
-# Strava backup and analytics scripts
+# Strava backup and statistics/analytics scripts
 
 In 2022, Strava started to make the yearly statistics as part of the subscription.
 I love statistics but I did not intend to pay for Strava subscription just for that.
