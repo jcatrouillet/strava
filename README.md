@@ -4,7 +4,7 @@ In 2022, Strava started to make the yearly statistics as part of the subscriptio
 I love statistics but I did not intend to pay for Strava subscription just for that.
 So I created this set of scripts to get my own statistics, freely inspired by the Strava 2021 stastistics and [SmashRun](https://smashrun.com/).
 
-Three different Python scripts to:
+There're three different Python scripts:
 1) <b>strava2gsheets_fullsync.py</b>: Retrieve all activities from Strava API v3 and store them in Google Sheet
 Be careful if you have a large number of activities in Strava as it imposes a rate-limit of 100 API calls per 15 minutes.
 My script is looking for this limit but if you're doing other calls, it can get wrong.
@@ -19,7 +19,7 @@ This script will produce two outputs:
   a) an image with your days of the year with activities (file named active_days_<year>.jpg) like this one:
 ![example of graph generated](https://github.com/jcatrouillet/strava/blob/main/active_days_2022.jpg)
 
-  b) a console output like that:
+  b) a console output that you can use to create your own presentation like [that](https://github.com/jcatrouillet/strava/blob/main/Strava%20stats%202022.odp). Here is a sample output:
 
 ```
 Analyzing year 2022
